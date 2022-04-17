@@ -1,0 +1,14 @@
+1 komponen ada props dan state
+
+props : apapun yang parent dipassing ke child
+
+state: kepunyaan state itu sendiri
+untuk dapat akses ke parent
+
+
+
+mounting = pertama kali di inititate
+
+updating = perubahan
+
+unmounting = komponen di remove

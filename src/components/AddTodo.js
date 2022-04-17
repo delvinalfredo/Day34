@@ -28,11 +28,14 @@ class AddTodo extends Component {
   }
 
   clickAdd() {
+    //ambil state, constrruct to do item
     const newTodo = {
       title: this.state.todoTitle,
       description: this.state.todoDescription
     }
+    //call func from pparentt that pasing to props
     this.props.updateTodoList(newTodo)
+    //reset form
     this.setState({
       todoTitle: '',
       todoDescription: ''
